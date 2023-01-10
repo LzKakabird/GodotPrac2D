@@ -124,7 +124,7 @@ func attackAnimationFinished():
 	state = MOVE
 	#添加轨道：调用方法：切换state
 	
-func _physics_process(delta):#_代表回调函数call back func， 物理？每一帧都会运行？？？
+func _process(delta):#_代表回调函数call back func， 物理？每一帧都会运行？？？
 	#print("hwlooworld! ")#每一帧都会运行一遍every tick
 	#control可以查询，
 	
